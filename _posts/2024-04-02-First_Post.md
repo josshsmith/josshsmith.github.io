@@ -1,5 +1,6 @@
 # A2 Progress
-1. TOC
+
+TOC
 {:toc}
 
 ## Question 1
