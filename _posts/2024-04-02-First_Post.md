@@ -6,6 +6,6 @@ After a quick refresher course on Tinker, I implemented the first part of functi
 
 Then came the computer vision aspect. Most of this was done by using code from Brian Lovells github repository. After merging the code with the GUI, I added additional functionality to compare a chosen fingerprint's likeness with all fingerprints that had been added to the fingerprints folder. Their likeness, as a score from 0 to 1, is then printed. This worked surprisingly well and required little adjustment to Brian Lovell's code. An image is shown below:  
 
-![GUI First Stage](images/GUI_1.png)
+![GUI First Stage](../images/GUI_1.png)
 
 
