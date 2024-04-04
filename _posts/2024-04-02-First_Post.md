@@ -14,3 +14,18 @@ Then came the computer vision aspect. Most of this was done by using code from B
 ![GUI First Stage](../images/GUI_1.png)
 
 
+## Question 2:
+
+
+
+## Question 3:
+
+
+
+## Question 4:
+
+
+## Question 5:
+
+
+
