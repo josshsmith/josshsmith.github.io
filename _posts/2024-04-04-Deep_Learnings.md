@@ -26,6 +26,14 @@ The example above has a bunch of preset data I will summarise:
 * **item_tfms:** Resizing the image so they are all the same size
 
 
- 
+ ## How to use a Datablock and Datablock.dataloader
+ You can show some of the data in a dataloader by doing the following:
+ ```python
+dls.show_batch(max_n=6)
+```
+This produces the following image:
+<img width="727" alt="image" src="https://github.com/josshsmith/josshsmith.github.io/assets/141536363/2d12ffbc-6d3e-452f-813a-9d7e7c1996da">
+This shows our images with their associated label.
+We can use duckduckgo to retrieve images online and they will be mostly accurate.
 
   
