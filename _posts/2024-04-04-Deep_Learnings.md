@@ -2,7 +2,8 @@
 1. TOC
 {:toc}
 
-## Deep Learning for *Coders*
+## Deep Learning for *Coders*  
+
 We have gone from not being able to figure out if a certain animal is in an image to being able to do just that in a few minutes.
 Recall that images are made of numbers, coloured images are in terms of red, green and blue.
 
