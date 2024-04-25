@@ -13,20 +13,3 @@ Then came the computer vision aspect. Most of this was done by using code from B
 
 ![image](https://github.com/josshsmith/josshsmith.github.io/assets/141536363/932d7485-13f3-4494-acfb-dbecfeab6496)
 
-
-
-## Question 2:
-
-
-
-## Question 3:
-
-
-
-## Question 4:
-
-
-## Question 5:
-
-
-
