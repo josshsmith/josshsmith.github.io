@@ -24,6 +24,7 @@ The example above has a bunch of preset data I will summarise:
 * **get_y:** A function to get the associated label from an image
 * **item_tfms:** Resizing the image so they are all the same size
 
+
  
 
   
