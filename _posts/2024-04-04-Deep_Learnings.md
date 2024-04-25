@@ -55,5 +55,27 @@ Fastai is built on top of pytorch. It can be thought of as a very user friendly 
 
 Brian has mentioned that we can not try and decrease the error rate on a validation data set for too long, as this will ruin our model.  
 This makes sense in my head, as the model will adjust to the validation dataset, and become a brand new network that is very accurate and classifying data similar to the validation set, but not to the training set. This is especially not ideal as the training data set is usually much larger then the validation set.  
- 
+
+Here is a table showing some of the more commonly used fastai data strucutures and functions.
+
+| Function/Data Structure | Description                                                  |
+|-------------------------|--------------------------------------------------------------|
+| `Learner`               | High-level API for training models, integrates data loading, training loop, and callbacks. |
+| `DataLoaders`           | Container holding train and validation `DataLoader` objects. |
+| `DataLoader`            | Wraps a dataset and provides mini-batch management and sampling. |
+| `Datasets`              | Container holding train and validation datasets.             |
+| `aug_transforms`        | Pre-defined augmentation transforms for data augmentation.  |
+| `cnn_learner`           | Constructor function for creating convolutional neural network learners. |
+| `tabular_learner`       | Constructor function for creating tabular (structured data) learners. |
+| `text_learner`          | Constructor function for creating text learners.              |
+| `CollabDataLoaders`     | Data loaders for collaborative filtering tasks.              |
+| `CollabLearner`         | Learner for collaborative filtering tasks.                   |
+| `show_batch`            | Utility function to display a batch of data with labels.     |
+| `show_results`          | Utility function to display model predictions and targets.   |
+| `show_doc`              | Utility function to display documentation for a function or class. |
+| `models`                | Module containing pre-trained models for transfer learning.  |
+| `layers`                | Module containing commonly used layers for building models. |
+| `metrics`               | Module containing evaluation metrics for model performance. |
+
+
   
