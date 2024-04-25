@@ -28,8 +28,8 @@ The example above has a bunch of preset data I will summarise:
 
 
  ## How to use a Datablock and Datablock.dataloader
- You can show some of the data in a dataloader by doing the following:
- ```python
+You can show some of the data in a dataloader by doing the following:
+```python
 dls.show_batch(max_n=6)
 ```
 This produces the following image:
@@ -48,4 +48,12 @@ learn.get_predict()
 learn.predict()
 ```
 These will return the models predictions for the data in the Datablock, or if using the predict function, you can pass new data to be predicted.
+
+## Fastai lecture 2
+This will follow the content from the second **ELEC4630** lecture on fastai.  
+Fastai is built on top of pytorch. It can be thought of as a very user friendly software for writing machine learning code, with most decisions pre-made, but modifiable if desired. This is very ideal as this is my first time writing machine learning code. 
+
+Brian has mentioned that we can not try and decrease the error rate on a validation data set for too long, as this will ruin our model.  
+This makes sense in my head, as the model will adjust to the validation dataset, and become a brand new network that is very accurate and classifying data similar to the validation set, but not to the training set. This is especially not ideal as the training data set is usually much larger then the validation set.  
+ 
   
