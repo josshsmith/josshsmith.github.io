@@ -6,9 +6,8 @@ We have gone from not being able to figure out if a certain animal is in an imag
 Recall that images are made of numbers, coloured images are in terms of red, green and blue.
 
 
-This can be done very quickly and easy in python for example,
+This can be done very quickly and easy in python. For example,
 ```python
-im = Image.open(dest)
 dls = DataBlock(
   blocks=(ImageBlock, CategoryBlock),
   get_items = get_image_files,
@@ -18,6 +17,13 @@ dls = DataBlock(
 ).dataloaders(path)
 ```
 DataBlocks give fastai all the information it needs to create a computer vision model.  
-Recall that it is easy to figure out if this is accurate, we can just look.  
+The example above has a bunch of preset data I will summarise:
+* **blocks:** The kind of data we are using
+* **get_items:** A function that retrieves the image files from a folder
+* **splitter:** Defines how we split our data between training and testing data.
+* **get_y:** A function to get the associated label from an image
+* **item_tfms:** Resizing the image so they are all the same size
+
+ 
 
   
